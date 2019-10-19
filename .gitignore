@@ -1,0 +1,12 @@
+*.pyc
+*.json
+*.pkl
+*.hdf5
+*.npy
+*.png
+*.out
+*.code
+*.nl
+*.bin
+*.api
+*.score
