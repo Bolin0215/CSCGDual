@@ -22,8 +22,8 @@ bleu_score = 0.0
 
 for k in res:
     assert k in gts
-    hyps.append(res[k])
-    refs.append(gts[k])
+    hyps.append(res[k][0])
+    refs.append(gts[k][0])
 for hyp, ref in zip(hyps, refs):
     hyp = hyp.strip().split()
     ref = ref.strip().split()
